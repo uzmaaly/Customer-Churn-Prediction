@@ -1,10 +1,18 @@
 # Customer-Churn-Prediction
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Dataset Overview](#dataset-overview)
+- [Steps of the Analysis](#steps-of-the-analysis)
+- [Results](#results)
+- [Conclusion](#conclusion)
+
+
 ## Project Overview
 
 This project aims to predict **customer churn** for a bank using a dataset of customer information. Churn refers to the loss of customers, and being able to accurately predict churn allows businesses to implement retention strategies for high-risk customers. This analysis focuses on identifying patterns that distinguish customers who are likely to leave the bank from those who are not.
 
-## Dataset
+## Dataset Overview
 The dataset consists of features related to customer demographics and behaviour. Key features include:
 * Credit Score: A customer’s credit score.
 * Geography: The country of the customer.
@@ -38,7 +46,8 @@ The dataset consists of features related to customer demographics and behaviour.
       * **F1-score:** The balance between precision and recall.
       * **ROC AUC:** The ability of the model to distinguish between churners and non-churners.
     
-5. **Results**:
+
+ # **Results**:
    * AdaBoost was the best-performing model with the following metrics:
        * **Precision:** 75% (When the model predicts churn, it's correct 75% of the time).
        * **Recall:** 50% (The model catches 50% of actual churners).
